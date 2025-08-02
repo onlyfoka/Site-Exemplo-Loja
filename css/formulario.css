@@ -1,0 +1,59 @@
+body {
+  background: linear-gradient(45deg, pink 45%, blue);
+  height: 100vh;
+}
+form {
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.Senha {
+  display: flex;
+  gap: 5px;
+}
+.butao-colorido {
+  background-color: mediumpurple;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 0 5px;
+}
+.butao-colorido img {
+  width: 30px;
+  height: 30px;
+}
+button{
+  background-color: mediumpurple;
+  color: white;
+  border: none;
+  padding: 20px 80px;
+
+  
+}
+.linhas{
+  border: 2px solid gray;
+  border-left: none;
+  border-right: none;
+  padding: 10px;
+}
+.icon{
+  position: absolute;
+  top: -30px;
+  background-color: mediumpurple;
+  border-radius: 150px;
+  padding: 10px;
+  height: 40px;
+}
+input{
+  padding: 15px;
+}
